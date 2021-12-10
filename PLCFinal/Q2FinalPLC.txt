@@ -1,0 +1,24 @@
+Q2. 25 Points
+Prove Total correctness of the following code block, and list all axioms and inference 
+rules used to determine this:
+ double answer = 1, d = 0.00001;
+ while (answer*answer <= num){
+ answer += d;
+ }
+ if (answer*answer > num) {
+ answer -= d;
+ }
+ // { answer = sqrt(num) }
+
+
+
+Answer: 
+// double variables being declared and defined.
+double answer = 1, d = 0.00001;
+while (answer*answer <= num){ // conditions are checked for the while loop
+answer += d; // This statement performs the addition operation
+} // 
+if (answer*answer > num) { // Specific condition is checked up using conditional statement(if-statement)
+answer -= d; // a subtraction statement 
+} // if loop ends
+// { answer = sqrt(num) }  the answer 

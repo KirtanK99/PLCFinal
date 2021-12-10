@@ -1,0 +1,15 @@
+public class myClass {
+public static void methodA () { }
+public static void main ( String [ ] args ) {
+float fnum = 6.9f ;
+String s1 = " I like Apples " ;
+boolean testingB= false ;
+int num2 = 11 ;
+int num3 = -43;
+String s2= " school " . compareTo () ;
+int num = 20 ;
+for ( int j = 0 ; j < 5 ; i ++ ) { System . out . println ( j ) ; }
+if ( num== 20 ) { System . out . println ( " good" ) ; }
+for ( int k = 0 ; k < 1 ; k ++ ) { System . out . println ( k ) ; }
+}
+}

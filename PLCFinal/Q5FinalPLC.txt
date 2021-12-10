@@ -1,0 +1,81 @@
+Q5.10 points
+Give an operational semantic definition of the following:
+- Java do-while 
+- Ada for
+- C++ if-then-else 
+- C for
+- C switch
+
+
+ANS:
+
+a) Java do while-
+ do{
+ //Code to perform the tasks
+  }while(condition);
+
+loop: code to be executed
+if condition is false goto out 
+goto loop 
+out:
+---------------------------------------------------
+b) Ada for-
+
+  for i in start .. finish loop 
+  --code 
+  end loop;
+
+i= start 
+loop if i >= finish goto out
+--code 
+goto loop
+out:
+---------------------------------------------------
+c) C++ if then else-
+
+  if(condition){
+   //code
+ }else{
+  //code
+ }
+
+if: condtion == false goto else
+code 
+goto out
+else:
+code
+out:
+-----------------------------------------------------
+d) C for-
+  for( intialize; terminating condition; increment/decrement)
+  {
+  code here
+}
+
+for(;condition == false break out;)
+else continue loop
+
+----------------------------------------------------------
+e) C switch-
+
+ switch(input1){
+  case 1:
+   //code 
+  break;
+  case 2:
+  //code
+  break;
+  case 3:
+  //break
+  break;
+  default:
+ //code
+}
+
+
+Switch: Input input1
+if input1 == 1 then case1code
+else if input1 == 2 then case2code
+else if input1 == 3 then case3code
+else: goto default 
+default: defaultcode

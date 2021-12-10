@@ -1,0 +1,42 @@
+Q6. 
+Give an denotational semantic definition of the following:
+- Python for
+- Java class
+- C++ function
+- C switch
+- Java Boolean expression
+
+Ans: 
+a) Python for: It is a iterator based loop. It iterates over tuples, dictionary, string, set, and lists. When it iterates over a sequence its called a traversal, this continues until it hits the end of the sequence.
+ Ex. This code iterates over items and prints out each element in a list
+        fruits = ["apple", "banana", "cherry"]
+	for x in fruits:
+  	   print(x)
+        
+        
+b) Java class: It is a user defined name to where the user can create objects of the class. It is a constructor for the objects and represents a set of properties or methods that can be common for the objects
+Ex. 
+
+public class Main{
+ public static void main(String[] args){
+  System.out.println("I am Strong");
+  int k = 99;
+  }
+}
+
+
+c) C++ Function: Set of more than 1 statements that takes in input(s) and has some output(s). Functions serves as a source of reusability of code to reduce amount of code.
+
+d) C Switch: is the combination of one or more cases and it replaces the if then else statement and compares the input variable to multiple different values. 
+Syntax:
+switch(input) {
+case 1:
+break;
+case 2:
+break;
+case 3:
+break;
+default:
+}
+
+e) Java Booleans Expressions: value that is TRUE or FALSE used for evaluating different expressions, they use boolean data type and used with mathmatical expressions, >, <, >=, <=, ==. !=.
